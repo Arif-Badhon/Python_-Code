@@ -1,0 +1,2 @@
+#NewCodeFromBADHON
+print("Hello World")
