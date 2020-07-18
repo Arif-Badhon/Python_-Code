@@ -1,2 +1,0 @@
-#NewCodeFromBADHON
-print("Hello World")
