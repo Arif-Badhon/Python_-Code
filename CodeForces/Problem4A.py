@@ -11,3 +11,19 @@
 #Output
 #Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
 
+A = int(input())
+
+s = []
+for i in range (1, A+1):
+	if A % i == 0:
+		s.append(i)
+
+n = 0
+for x in s:
+	if x%2 == 0:
+		n+=1
+
+if n>=2:
+	print("Yes")
+else:
+	print("No")
